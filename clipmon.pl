@@ -279,9 +279,13 @@ Defaults to B<1>.
 Syntax:
 
 <rule>
+
    match = perlre
+
    exec = command arg1 arg2 argN
+
    continue # optional
+
 </rule>
 
 =back
